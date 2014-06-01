@@ -1,0 +1,79 @@
+<script type="text/javascript">
+
+var items = [];
+var hide_count = 0;
+
+<% for item in @recommendation %>
+  items.push('<%= item["businessId"] %>');
+<% end %>
+
+function go_right(){
+    if ( hide_count < ( items.length - 3 ) ) {
+        /*item = document.getElementById(items[hide_count]).style.display = "none"; */
+        item = document.getElementById(items[hide_count]).style.visibility = "hidden";
+        item = document.getElementById(items[hide_count]).style.width = "0px";
+        hide_count++;
+    }
+    if ( hide_count >= ( items.length - 3 ) ) {
+        document.getElementById("button_right").className = "button_right_off";
+    }
+    if ( hide_count > 0 ){
+        document.getElementById("button_left").className = "button_left_on";
+    }
+}
+function go_left(){
+    if ( hide_count > 0 ){
+        /*document.getElementById(items[hide_count -1]).style.display = "block"; */
+        document.getElementById(items[hide_count -1]).style.visibility = "visible";
+        document.getElementById(items[hide_count -1]).style.width = "172px";
+        hide_count--;
+    }
+    if ( hide_count < ( items.length - 3 ) ) {
+        document.getElementById("button_right").className = "button_right_on";
+    }
+    if ( hide_count == 0 ){
+        document.getElementById("button_left").className = "button_left_off";
+    }
+}
+</script>
+
+<div id="base">
+  <div id="d_top">
+    <div class="d_left">
+      <div id="d_top_left_border"></div>
+      <div id="d_top_left">Você visitou:</div>
+    </div>
+    <div class="d_right">
+      <div id="d_top_left">e talvez se interesse por:</div>
+      <div id="d_top_right_border"></div>
+    </div>
+  </div>
+  <div id="d_center" style=" overflow: hidden">
+    <div class="d_left div_reference" >
+      <div class="item">
+        <%= render partial: 'product', locals: {item: @reference["item"]} %>
+      </div>
+    </div>
+    <div class="d_right div_recommendation" >
+      <div id="button_left" class="button_left_off" onclick="javascript:go_left();"></div>
+      <div class="rec_conteiner">
+        <div class="content">
+          <% for item in @recommendation %>
+              <div class="item" id="<%= item["businessId"] %>">
+                <%= render partial: 'product', locals: {item: item} %>
+              </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="d_bottom" >
+    <div id="d_bottom_left_border" ></div>
+    <div id="d_bottom_right_border" ></div>
+  </div>
+  <div id="controll_right">
+    <div id="degrade_right"></div>
+    <div id="button_right" class="button_right_on" onclick="javascript:go_right();"></div>
+  </div>
+</div>
+

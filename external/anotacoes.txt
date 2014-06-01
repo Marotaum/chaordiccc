@@ -1,0 +1,11 @@
+1. Construção do HTML
+2. Construção do CSS
+3. Conhecimento em Javascript e DOM puros (sem auxílio de bibliotecas de terceiros)
+4. Detalhismo no acabamento da exportação
+5. Interação com a vitrine (links, mouse hover e paginação)
+6. Carregamento dos dados no servidor remoto
+
+O layout da vitrine está em anexo.
+
+Serviço remoto (produto referência + recomendações)
+http://roberval.chaordicsystems.com/challenge/challenge.json?callback=X
