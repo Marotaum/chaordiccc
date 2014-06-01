@@ -6,9 +6,4 @@ class ShopControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  test "should get next" do
-    get :next
-    assert_response :success
-  end
-
 end

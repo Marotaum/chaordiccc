@@ -1,266 +1,40 @@
-I, [2014-06-01T00:30:20.352796 #4456]  INFO -- : Started GET "/shop/index" for 127.0.0.1 at 2014-06-01 00:30:20 +0100
-I, [2014-06-01T00:30:20.352796 #4456]  INFO -- : Processing by ShopController#index as HTML
-I, [2014-06-01T00:30:20.977844 #4456]  INFO -- : Completed 500 Internal Server Error in 625ms
-F, [2014-06-01T00:30:20.977844 #4456] FATAL -- : 
-JSON::ParserError (757: unexpected token at ')'):
-  app/controllers/shop_controller.rb:22:in `get_items'
-  app/controllers/shop_controller.rb:3:in `index'
-
-
-I, [2014-06-01T00:31:09.714268 #4456]  INFO -- : Started GET "/shop/index" for 127.0.0.1 at 2014-06-01 00:31:09 +0100
-I, [2014-06-01T00:31:09.714268 #4456]  INFO -- : Processing by ShopController#index as HTML
-I, [2014-06-01T00:31:10.276779 #4456]  INFO -- : Completed 500 Internal Server Error in 547ms
-F, [2014-06-01T00:31:10.276779 #4456] FATAL -- : 
-JSON::ParserError (757: unexpected token at ')'):
-  app/controllers/shop_controller.rb:22:in `get_items'
-  app/controllers/shop_controller.rb:3:in `index'
-
-
-I, [2014-06-01T00:31:20.339472 #3160]  INFO -- : Started GET "/shop/index" for 127.0.0.1 at 2014-06-01 00:31:20 +0100
-I, [2014-06-01T00:31:20.339472 #3160]  INFO -- : Processing by ShopController#index as HTML
-I, [2014-06-01T00:31:20.980110 #3160]  INFO -- :   Rendered text template (0.0ms)
-I, [2014-06-01T00:31:21.495744 #3160]  INFO -- : Completed 200 OK in 1156ms (Views: 15.6ms | ActiveRecord: 0.0ms)
-I, [2014-06-01T00:32:33.368049 #4708]  INFO -- : Started GET "/shop/index" for 127.0.0.1 at 2014-06-01 00:32:33 +0100
-I, [2014-06-01T00:32:33.383673 #4708]  INFO -- : Processing by ShopController#index as HTML
-I, [2014-06-01T00:32:34.024261 #4708]  INFO -- :   Rendered text template (0.0ms)
-I, [2014-06-01T00:32:34.571105 #4708]  INFO -- : Completed 200 OK in 1187ms (Views: 0.0ms | ActiveRecord: 0.0ms)
-I, [2014-06-01T00:34:07.629502 #5428]  INFO -- : Started GET "/shop/index" for 127.0.0.1 at 2014-06-01 00:34:07 +0100
-I, [2014-06-01T00:34:07.629502 #5428]  INFO -- : Processing by ShopController#index as HTML
-I, [2014-06-01T00:34:08.254486 #5428]  INFO -- :   Rendered text template (0.0ms)
-I, [2014-06-01T00:34:08.801347 #5428]  INFO -- : Completed 200 OK in 1172ms (Views: 0.0ms | ActiveRecord: 0.0ms)
-I, [2014-06-01T00:34:18.035486 #5428]  INFO -- : Started GET "/shop/index" for 127.0.0.1 at 2014-06-01 00:34:18 +0100
-I, [2014-06-01T00:34:18.035486 #5428]  INFO -- : Processing by ShopController#index as HTML
-I, [2014-06-01T00:34:18.582347 #5428]  INFO -- :   Rendered text template (0.0ms)
-I, [2014-06-01T00:34:19.113583 #5428]  INFO -- : Completed 200 OK in 1078ms (Views: 0.0ms | ActiveRecord: 0.0ms)
-I, [2014-06-01T00:34:29.332072 #3916]  INFO -- : Started GET "/shop/index" for 127.0.0.1 at 2014-06-01 00:34:29 +0100
-I, [2014-06-01T00:34:29.347696 #3916]  INFO -- : Processing by ShopController#index as HTML
-I, [2014-06-01T00:34:30.003929 #3916]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:34:30.003929 #3916]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:34:30.019554 #3916]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:34:30.019554 #3916]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:34:30.019554 #3916]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:34:30.019554 #3916]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:34:30.019554 #3916]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:34:30.019554 #3916]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:34:30.019554 #3916]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:34:30.019554 #3916]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:34:30.019554 #3916]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:34:30.019554 #3916]  INFO -- :   Rendered shop/index.html.erb within layouts/application (15.6ms)
-I, [2014-06-01T00:34:30.019554 #3916]  INFO -- : Completed 200 OK in 672ms (Views: 31.2ms | ActiveRecord: 0.0ms)
-I, [2014-06-01T00:34:30.050803 #3916]  INFO -- : Started GET "/stylesheets/application.css" for 127.0.0.1 at 2014-06-01 00:34:30 +0100
-F, [2014-06-01T00:34:30.050803 #3916] FATAL -- : 
-ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
-  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
-  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
-  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
-  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
-  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
-  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
-  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
-  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
-  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
-  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
-  railties (4.1.0) lib/rails/engine.rb:514:in `call'
-  railties (4.1.0) lib/rails/application.rb:144:in `call'
-  rack (1.5.2) lib/rack/lock.rb:17:in `call'
-  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
-  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
-  C:/Ruby200/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
-  C:/Ruby200/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
-  C:/Ruby200/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
-
-
-I, [2014-06-01T00:34:30.066428 #3916]  INFO -- : Started GET "/javascripts/application.js" for 127.0.0.1 at 2014-06-01 00:34:30 +0100
-F, [2014-06-01T00:34:30.082052 #3916] FATAL -- : 
-ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
-  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
-  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
-  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
-  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
-  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
-  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
-  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
-  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
-  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
-  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
-  railties (4.1.0) lib/rails/engine.rb:514:in `call'
-  railties (4.1.0) lib/rails/application.rb:144:in `call'
-  rack (1.5.2) lib/rack/lock.rb:17:in `call'
-  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
-  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
-  C:/Ruby200/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
-  C:/Ruby200/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
-  C:/Ruby200/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
-
-
-I, [2014-06-01T00:36:18.831760 #4904]  INFO -- : Started GET "/shop/index" for 127.0.0.1 at 2014-06-01 00:36:18 +0100
-I, [2014-06-01T00:36:18.831760 #4904]  INFO -- : Processing by ShopController#index as HTML
-I, [2014-06-01T00:36:19.472398 #4904]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:36:19.472398 #4904]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:36:19.472398 #4904]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:36:19.472398 #4904]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:36:19.472398 #4904]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:36:19.472398 #4904]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:36:19.472398 #4904]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:36:19.472398 #4904]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:36:19.472398 #4904]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:36:19.472398 #4904]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:36:19.472398 #4904]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:36:19.472398 #4904]  INFO -- :   Rendered shop/index.html.erb within layouts/application (15.6ms)
-I, [2014-06-01T00:43:14.754319 #4904]  INFO -- : Completed 500 Internal Server Error in 415923ms
-F, [2014-06-01T00:43:14.754319 #4904] FATAL -- : 
-ActionView::Template::Error (
-  (in C:/Programacao/codechallenge/app/assets/javascripts/application.js)):
-    3: <head>
-    4:   <title>CodeChallenge Ildo</title>
-    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-    7:   <%= csrf_meta_tags %>
-    8:   <meta http-equiv="cache-control" content="max-age=0" />
-    9:   <meta http-equiv="cache-control" content="no-cache" />
-  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___997022786_17869776'
-
-
-I, [2014-06-01T00:45:29.222270 #5608]  INFO -- : Started GET "/shop/index" for 127.0.0.1 at 2014-06-01 00:45:29 +0100
-I, [2014-06-01T00:45:29.237895 #5608]  INFO -- : Processing by ShopController#index as HTML
-I, [2014-06-01T00:45:29.847278 #5608]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:45:29.847278 #5608]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:45:29.862903 #5608]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:45:29.862903 #5608]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:45:29.862903 #5608]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:45:29.862903 #5608]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:45:29.862903 #5608]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:45:29.862903 #5608]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:45:29.862903 #5608]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:45:29.862903 #5608]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:45:29.862903 #5608]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:45:29.862903 #5608]  INFO -- :   Rendered shop/index.html.erb within layouts/application (15.6ms)
-I, [2014-06-01T00:45:29.862903 #5608]  INFO -- : Completed 200 OK in 625ms (Views: 31.2ms | ActiveRecord: 0.0ms)
-I, [2014-06-01T00:45:29.878528 #5608]  INFO -- : Started GET "/assets/application-cdd470949d1e4207f0d8a8323a314606.js" for 127.0.0.1 at 2014-06-01 00:45:29 +0100
-I, [2014-06-01T00:45:29.894153 #5608]  INFO -- : Started GET "/assets/application-b47a6bf9d330a802181fc79cf8704db5.css" for 127.0.0.1 at 2014-06-01 00:45:29 +0100
-I, [2014-06-01T00:45:29.941029 #5608]  INFO -- : Started GET "/assets/top_line_right-e434eb9ba8b55d099c2a7805f13cd90a.PNG" for 127.0.0.1 at 2014-06-01 00:45:29 +0100
-I, [2014-06-01T00:45:29.941029 #5608]  INFO -- : Started GET "/assets/button_left_off-cbfe5c5fda03e1fe5626cda3df41719d.PNG" for 127.0.0.1 at 2014-06-01 00:45:29 +0100
-I, [2014-06-01T00:45:29.972279 #5608]  INFO -- : Started GET "/assets/bottom_line-91d11978193974303db9964b980baad3.PNG" for 127.0.0.1 at 2014-06-01 00:45:29 +0100
-I, [2014-06-01T00:45:29.972279 #5608]  INFO -- : Started GET "/assets/top_line-1c9662fe829c71d4fd852f57e401dbd0.PNG" for 127.0.0.1 at 2014-06-01 00:45:29 +0100
-I, [2014-06-01T00:45:29.987905 #5608]  INFO -- : Started GET "/assets/bottom_line_right-662f78ac18126b96f3e9dd701d7e96db.PNG" for 127.0.0.1 at 2014-06-01 00:45:29 +0100
-I, [2014-06-01T00:45:30.003530 #5608]  INFO -- : Started GET "/assets/button_right_on-d7ea88d20be36b3c65643e1ce789837d.PNG" for 127.0.0.1 at 2014-06-01 00:45:30 +0100
-I, [2014-06-01T00:46:02.787062 #2012]  INFO -- : Started GET "/shop/index" for 127.0.0.1 at 2014-06-01 00:46:02 +0100
-I, [2014-06-01T00:46:02.802689 #2012]  INFO -- : Processing by ShopController#index as HTML
-I, [2014-06-01T00:46:03.396496 #2012]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:46:03.396496 #2012]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:46:03.396496 #2012]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:46:03.396496 #2012]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:46:03.396496 #2012]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:46:03.412122 #2012]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:46:03.412122 #2012]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:46:03.412122 #2012]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:46:03.412122 #2012]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:46:03.412122 #2012]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:46:03.412122 #2012]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:46:03.412122 #2012]  INFO -- :   Rendered shop/index.html.erb within layouts/application (15.6ms)
-I, [2014-06-01T00:46:03.412122 #2012]  INFO -- : Completed 200 OK in 609ms (Views: 31.3ms | ActiveRecord: 0.0ms)
-I, [2014-06-01T00:46:03.427749 #2012]  INFO -- : Started GET "/assets/application-cdd470949d1e4207f0d8a8323a314606.js" for 127.0.0.1 at 2014-06-01 00:46:03 +0100
-I, [2014-06-01T00:46:03.443375 #2012]  INFO -- : Started GET "/assets/application-7506078ae78ebb88772577e19290748c.css" for 127.0.0.1 at 2014-06-01 00:46:03 +0100
-I, [2014-06-01T00:46:03.490255 #2012]  INFO -- : Started GET "/assets/top_line_right-e434eb9ba8b55d099c2a7805f13cd90a.PNG" for 127.0.0.1 at 2014-06-01 00:46:03 +0100
-I, [2014-06-01T00:46:03.537134 #2012]  INFO -- : Started GET "/assets/bottom_line-91d11978193974303db9964b980baad3.PNG" for 127.0.0.1 at 2014-06-01 00:46:03 +0100
-I, [2014-06-01T00:46:03.537134 #2012]  INFO -- : Started GET "/assets/top_line-1c9662fe829c71d4fd852f57e401dbd0.PNG" for 127.0.0.1 at 2014-06-01 00:46:03 +0100
-I, [2014-06-01T00:46:03.537134 #2012]  INFO -- : Started GET "/assets/button_left_off-cbfe5c5fda03e1fe5626cda3df41719d.PNG" for 127.0.0.1 at 2014-06-01 00:46:03 +0100
-I, [2014-06-01T00:46:03.537134 #2012]  INFO -- : Started GET "/assets/bottom_line_right-662f78ac18126b96f3e9dd701d7e96db.PNG" for 127.0.0.1 at 2014-06-01 00:46:03 +0100
-I, [2014-06-01T00:46:03.552761 #2012]  INFO -- : Started GET "/assets/button_right_on-d7ea88d20be36b3c65643e1ce789837d.PNG" for 127.0.0.1 at 2014-06-01 00:46:03 +0100
-I, [2014-06-01T00:49:53.581103 #5968]  INFO -- : Started GET "/shop/index" for 127.0.0.1 at 2014-06-01 00:49:53 +0100
-I, [2014-06-01T00:49:53.581103 #5968]  INFO -- : Processing by ShopController#index as HTML
-I, [2014-06-01T00:49:54.190481 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:49:54.190481 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:49:54.190481 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:49:54.190481 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:49:54.206107 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:49:54.206107 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:49:54.206107 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:49:54.206107 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:49:54.206107 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:49:54.206107 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:49:54.206107 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:49:54.206107 #5968]  INFO -- :   Rendered shop/index.html.erb within layouts/application (15.6ms)
-I, [2014-06-01T00:49:54.206107 #5968]  INFO -- : Completed 200 OK in 625ms (Views: 15.6ms | ActiveRecord: 0.0ms)
-I, [2014-06-01T00:49:54.221732 #5968]  INFO -- : Started GET "/assets/application-cdd470949d1e4207f0d8a8323a314606.js" for 127.0.0.1 at 2014-06-01 00:49:54 +0100
-I, [2014-06-01T00:49:54.237357 #5968]  INFO -- : Started GET "/assets/application-7506078ae78ebb88772577e19290748c.css" for 127.0.0.1 at 2014-06-01 00:49:54 +0100
-I, [2014-06-01T00:49:54.362358 #5968]  INFO -- : Started GET "/assets/top_line-1c9662fe829c71d4fd852f57e401dbd0.PNG" for 127.0.0.1 at 2014-06-01 00:49:54 +0100
-I, [2014-06-01T00:49:54.377983 #5968]  INFO -- : Started GET "/assets/button_left_off-cbfe5c5fda03e1fe5626cda3df41719d.PNG" for 127.0.0.1 at 2014-06-01 00:49:54 +0100
-I, [2014-06-01T00:49:54.377983 #5968]  INFO -- : Started GET "/assets/top_line_right-e434eb9ba8b55d099c2a7805f13cd90a.PNG" for 127.0.0.1 at 2014-06-01 00:49:54 +0100
-I, [2014-06-01T00:49:54.377983 #5968]  INFO -- : Started GET "/assets/bottom_line-91d11978193974303db9964b980baad3.PNG" for 127.0.0.1 at 2014-06-01 00:49:54 +0100
-I, [2014-06-01T00:49:54.393608 #5968]  INFO -- : Started GET "/assets/bottom_line_right-662f78ac18126b96f3e9dd701d7e96db.PNG" for 127.0.0.1 at 2014-06-01 00:49:54 +0100
-I, [2014-06-01T00:49:54.393608 #5968]  INFO -- : Started GET "/assets/button_right_on-d7ea88d20be36b3c65643e1ce789837d.PNG" for 127.0.0.1 at 2014-06-01 00:49:54 +0100
-I, [2014-06-01T00:53:09.976813 #5968]  INFO -- : Started GET "/shop/index" for 127.0.0.1 at 2014-06-01 00:53:09 +0100
-I, [2014-06-01T00:53:09.976813 #5968]  INFO -- : Processing by ShopController#index as HTML
-I, [2014-06-01T00:53:10.648709 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:10.648709 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:10.648709 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:10.648709 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:10.648709 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:10.648709 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:10.648709 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:10.648709 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:10.648709 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:10.648709 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:10.648709 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:10.648709 #5968]  INFO -- :   Rendered shop/index.html.erb within layouts/application (0.0ms)
-I, [2014-06-01T00:53:10.648709 #5968]  INFO -- : Completed 200 OK in 672ms (Views: 0.0ms | ActiveRecord: 0.0ms)
-I, [2014-06-01T00:53:10.664335 #5968]  INFO -- : Started GET "/assets/application-7506078ae78ebb88772577e19290748c.css" for 127.0.0.1 at 2014-06-01 00:53:10 +0100
-I, [2014-06-01T00:53:10.664335 #5968]  INFO -- : Started GET "/assets/application-cdd470949d1e4207f0d8a8323a314606.js" for 127.0.0.1 at 2014-06-01 00:53:10 +0100
-I, [2014-06-01T00:53:37.024553 #5968]  INFO -- : Started GET "/shop/index" for 127.0.0.1 at 2014-06-01 00:53:37 +0100
-I, [2014-06-01T00:53:37.024553 #5968]  INFO -- : Processing by ShopController#index as HTML
-I, [2014-06-01T00:53:37.540195 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:37.540195 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:37.540195 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:37.540195 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:37.540195 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:37.540195 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:37.540195 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:37.540195 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:37.540195 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:37.540195 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:37.540195 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:37.540195 #5968]  INFO -- :   Rendered shop/index.html.erb within layouts/application (0.0ms)
-I, [2014-06-01T00:53:37.540195 #5968]  INFO -- : Completed 200 OK in 516ms (Views: 0.0ms | ActiveRecord: 0.0ms)
-I, [2014-06-01T00:53:37.555820 #5968]  INFO -- : Started GET "/assets/application-cdd470949d1e4207f0d8a8323a314606.js" for 127.0.0.1 at 2014-06-01 00:53:37 +0100
-I, [2014-06-01T00:53:37.571446 #5968]  INFO -- : Started GET "/assets/application-7506078ae78ebb88772577e19290748c.css" for 127.0.0.1 at 2014-06-01 00:53:37 +0100
-I, [2014-06-01T00:53:40.915275 #5968]  INFO -- : Started GET "/shop/index" for 127.0.0.1 at 2014-06-01 00:53:40 +0100
-I, [2014-06-01T00:53:40.915275 #5968]  INFO -- : Processing by ShopController#index as HTML
-I, [2014-06-01T00:53:41.430887 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:41.430887 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:41.430887 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:41.430887 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:41.430887 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:41.430887 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:41.430887 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:41.430887 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:41.430887 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:41.430887 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:41.430887 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:41.430887 #5968]  INFO -- :   Rendered shop/index.html.erb within layouts/application (0.0ms)
-I, [2014-06-01T00:53:41.430887 #5968]  INFO -- : Completed 200 OK in 516ms (Views: 15.6ms | ActiveRecord: 0.0ms)
-I, [2014-06-01T00:53:41.446511 #5968]  INFO -- : Started GET "/assets/application-cdd470949d1e4207f0d8a8323a314606.js" for 127.0.0.1 at 2014-06-01 00:53:41 +0100
-I, [2014-06-01T00:53:41.462136 #5968]  INFO -- : Started GET "/assets/application-7506078ae78ebb88772577e19290748c.css" for 127.0.0.1 at 2014-06-01 00:53:41 +0100
-I, [2014-06-01T00:53:47.446358 #5968]  INFO -- : Started GET "/shop/index" for 127.0.0.1 at 2014-06-01 00:53:47 +0100
-I, [2014-06-01T00:53:47.446358 #5968]  INFO -- : Processing by ShopController#index as HTML
-I, [2014-06-01T00:53:47.977594 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:47.977594 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:47.977594 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:47.977594 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:47.977594 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:47.977594 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:47.977594 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:47.977594 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:47.977594 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:47.977594 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:47.977594 #5968]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
-I, [2014-06-01T00:53:47.977594 #5968]  INFO -- :   Rendered shop/index.html.erb within layouts/application (0.0ms)
-I, [2014-06-01T00:53:47.977594 #5968]  INFO -- : Completed 200 OK in 531ms (Views: 0.0ms | ActiveRecord: 0.0ms)
-I, [2014-06-01T00:53:48.024468 #5968]  INFO -- : Started GET "/assets/application-cdd470949d1e4207f0d8a8323a314606.js" for 127.0.0.1 at 2014-06-01 00:53:48 +0100
-I, [2014-06-01T00:53:48.024468 #5968]  INFO -- : Started GET "/assets/application-7506078ae78ebb88772577e19290748c.css" for 127.0.0.1 at 2014-06-01 00:53:48 +0100
+I, [2014-06-01T03:05:41.020648 #5404]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-06-01 03:05:41 +0100
+I, [2014-06-01T03:05:41.020648 #5404]  INFO -- : Processing by ShopController#index as HTML
+I, [2014-06-01T03:05:41.817539 #5404]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
+I, [2014-06-01T03:05:41.817539 #5404]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
+I, [2014-06-01T03:05:41.817539 #5404]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
+I, [2014-06-01T03:05:41.817539 #5404]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
+I, [2014-06-01T03:05:41.817539 #5404]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
+I, [2014-06-01T03:05:41.817539 #5404]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
+I, [2014-06-01T03:05:41.817539 #5404]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
+I, [2014-06-01T03:05:41.817539 #5404]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
+I, [2014-06-01T03:05:41.817539 #5404]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
+I, [2014-06-01T03:05:41.817539 #5404]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
+I, [2014-06-01T03:05:41.817539 #5404]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
+I, [2014-06-01T03:05:41.817539 #5404]  INFO -- :   Rendered shop/index.html.erb within layouts/application (0.0ms)
+I, [2014-06-01T03:05:41.833165 #5404]  INFO -- : Completed 200 OK in 813ms (Views: 15.6ms)
+I, [2014-06-01T03:08:42.200208 #5492]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-06-01 03:08:42 +0100
+I, [2014-06-01T03:08:42.200208 #5492]  INFO -- : Processing by ShopController#index as HTML
+I, [2014-06-01T03:08:42.809587 #5492]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
+I, [2014-06-01T03:08:42.809587 #5492]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
+I, [2014-06-01T03:08:42.809587 #5492]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
+I, [2014-06-01T03:08:42.809587 #5492]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
+I, [2014-06-01T03:08:42.809587 #5492]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
+I, [2014-06-01T03:08:42.809587 #5492]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
+I, [2014-06-01T03:08:42.809587 #5492]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
+I, [2014-06-01T03:08:42.809587 #5492]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
+I, [2014-06-01T03:08:42.809587 #5492]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
+I, [2014-06-01T03:08:42.825212 #5492]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
+I, [2014-06-01T03:08:42.825212 #5492]  INFO -- :   Rendered shop/_product.html.erb (0.0ms)
+I, [2014-06-01T03:08:42.825212 #5492]  INFO -- :   Rendered shop/index.html.erb within layouts/application (15.6ms)
+I, [2014-06-01T03:08:42.950213 #5492]  INFO -- : Completed 200 OK in 750ms (Views: 140.6ms)
+I, [2014-06-01T03:08:42.965838 #5492]  INFO -- : Started GET "/assets/application-56fc6d1584d637426b991ace16a268b8.css" for 127.0.0.1 at 2014-06-01 03:08:42 +0100
+I, [2014-06-01T03:08:42.981463 #5492]  INFO -- : Started GET "/assets/application-cdd470949d1e4207f0d8a8323a314606.js" for 127.0.0.1 at 2014-06-01 03:08:42 +0100
+I, [2014-06-01T03:08:43.028339 #5492]  INFO -- : Started GET "/assets/top_line-1c9662fe829c71d4fd852f57e401dbd0.PNG" for 127.0.0.1 at 2014-06-01 03:08:43 +0100
+I, [2014-06-01T03:08:43.043964 #5492]  INFO -- : Started GET "/assets/top_line_right-e434eb9ba8b55d099c2a7805f13cd90a.PNG" for 127.0.0.1 at 2014-06-01 03:08:43 +0100
+I, [2014-06-01T03:08:43.059589 #5492]  INFO -- : Started GET "/assets/top_line_left-1f0339a587c1b834217e776d94c1cc86.PNG" for 127.0.0.1 at 2014-06-01 03:08:43 +0100
+I, [2014-06-01T03:08:43.059589 #5492]  INFO -- : Started GET "/assets/button_left_off-cbfe5c5fda03e1fe5626cda3df41719d.PNG" for 127.0.0.1 at 2014-06-01 03:08:43 +0100
+I, [2014-06-01T03:08:43.090839 #5492]  INFO -- : Started GET "/assets/button_right_on-d7ea88d20be36b3c65643e1ce789837d.PNG" for 127.0.0.1 at 2014-06-01 03:08:43 +0100
+I, [2014-06-01T03:08:43.090839 #5492]  INFO -- : Started GET "/assets/bottom_line_right-662f78ac18126b96f3e9dd701d7e96db.PNG" for 127.0.0.1 at 2014-06-01 03:08:43 +0100
+I, [2014-06-01T03:08:43.106464 #5492]  INFO -- : Started GET "/assets/bottom_line_left-10cf848571ea845943e694d99cd91cd6.PNG" for 127.0.0.1 at 2014-06-01 03:08:43 +0100
+I, [2014-06-01T03:08:43.106464 #5492]  INFO -- : Started GET "/assets/bottom_line-91d11978193974303db9964b980baad3.PNG" for 127.0.0.1 at 2014-06-01 03:08:43 +0100
